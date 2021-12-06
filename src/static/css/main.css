@@ -1,12 +1,11 @@
 body {
-    background-image: url("img/face-mask.png");
     background-size: auto;
     box-sizing: border-box;
     font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
     box-sizing: border-box;
