@@ -1,0 +1,45 @@
+.game-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.game-panel__points {
+    display: flex;
+}
+
+.game-panel__points p {
+    margin-right: 20px;
+    font-weight: bold;
+    position: relative;
+    font-size: 18px;
+}
+
+.game-panel__points p:after {
+    content: '';
+    width: 75px;
+    height: 3px;
+    background-color: #5ac38d;
+    position: absolute;
+    left: -5px;
+    bottom: -2px;
+}
+
+.game-panel__points p:last-of-type:after {
+    background-color: #ffb247;
+    width: 93px;
+}
+
+.game-panel__title {
+    position: relative;
+    left: -40px;
+}
+
+.game-panel__time {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
